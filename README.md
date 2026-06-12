@@ -21,7 +21,7 @@ Here is a visual walkthrough of the functional analytics application:
 
 ### 2. Multi-Model Performance Matrix
 *Enables side-by-side benchmarking of primary classification performance metrics.*
-![Model Comparison Metrics](model_comparison.png)
+![Model Comparison Metrics](model_comparison.jng)
 
 ### 3. Model Evaluation Diagnostics
 *Displays exact value arrays for testing evaluation parameters.*
