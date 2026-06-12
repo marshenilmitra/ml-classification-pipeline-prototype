@@ -17,11 +17,11 @@ Here is a visual walkthrough of the functional analytics application:
 
 ### 1. Main Data Ingestion Page
 *Shows the raw dataset preview alongside model framework initialization.*
-![Main Dashboard Interface](dashboard_main.jpg)
+![Main Dashboard Interface](dashboard_main.png)
 
 ### 2. Multi-Model Performance Matrix
 *Enables side-by-side benchmarking of primary classification performance metrics.*
-![Model Comparison Metrics](model_comparison.jpg)
+![Model Comparison Metrics](model_comparison.png)
 
 ### 3. Model Evaluation Diagnostics
 *Displays exact value arrays for testing evaluation parameters.*
