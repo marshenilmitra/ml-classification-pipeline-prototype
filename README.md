@@ -31,11 +31,15 @@ Here is a visual walkthrough of the functional analytics application:
 *Breaking down True Positives, False Positives, True Negatives, and False Negatives.*
 ![Confusion Matrix](confusion_matrix.png)
 
-### 5. Algorithmic Feature Importance
+### 5. Receiver Operating Characteristic (ROC) Curve
+*Demonstrating the true positive rate against the false positive rate across different thresholds.*
+![ROC Curve Analysis](ROC_curve.png)
+
+### 6. Algorithmic Feature Importance
 *Visual representation highlighting top 10 influential vectors calculated by tree-based architectures.*
 ![Feature Importance Mapping](Feature_Importance.png)
 
-### 6. Dynamic Interpretations & Deliverables
+### 7. Dynamic Interpretations & Deliverables
 *Includes data reporting generation engines and business summaries.*
 ![Business Insights Panel](Business_insights.png)
 
