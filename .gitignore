@@ -1,0 +1,4 @@
+__pycache__/
+*.pyc
+.streamlit/
+Titanic_Model_Output.xlsx
