@@ -1,4 +1,8 @@
 # End-to-End Machine Learning Classification Dashboard
+![Python Version](https://img.shields.io/badge/python-3.10%2B-blue)
+![Framework](https://img.shields.io/badge/framework-Streamlit-FF4B4B)
+![Linter](https://img.shields.io/badge/code%20style-black-000000)
+![License](https://img.shields.io/badge/license-MIT-green)
 
 🚀 **Live Production Deployment:** [Click Here to View the Running Application](https://ml-classification-pipeline-prototype.streamlit.app/)
 
@@ -6,7 +10,16 @@ A responsive, interactive web application built with **Streamlit** to perform co
 
 ## 🎯 Project Objective
 Establish a clean, reusable development framework for data ingestion, missing value imputation, categorical encoding, and multi-model performance evaluation. 
+## 📐 Data Pipeline Architecture
 
+The application abstracts data processing from user interface constraints using a functional pipeline layout tailored for robust classification:
+
+1. **Ingestion Layer:** Accepts tabular file structures via an asynchronous data buffer to handle user-uploaded datasets seamlessly.
+2. **Preprocessing Pipeline:** Implements structural automated imputation strategies for type-specific missing values (Median strategies for continuous distributions like Age/Fare; Mode strategies for categorical flags like Embarked).
+3. **Feature Separation:** Isolates targets and constructs categorical encodings via automated target-vector alignment.
+4. **Evaluation Engine:** Concurrently generates stratified performance indicators (ROC Analysis, Precision-Recall Curves, and Multi-Class Confusion Matrix layouts) across multiple models (XGBoost, Random Forest, Logistic Regression).
+5. **Downstream Reporting:** Outbound transformation layer utilizing an `openpyxl` backend engine to serialize run metrics into formatted Excel reporting frameworks for business stakeholders.
+   
 ### 💎 Key Features Implemented:
 * **Multi-Model Pipeline:** Concurrent training evaluation using Logistic Regression, Decision Tree, Random Forest, and XGBoost.
 * **Granular Diagnostics:** Dynamic evaluation metrics tracking Accuracy, Precision, Recall, F1 Score, and a generated False Positive Rate (FPR) / True Positive Rate (TPR) data stream.
